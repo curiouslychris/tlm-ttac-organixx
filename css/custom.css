@@ -1,0 +1,106 @@
+/*!
+ * Custom styling for Organixx pages
+ */
+
+/* Resetting container width */
+ @media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+.main-wrap {
+  background-color: transparent;
+  background-image: radial-gradient(at center center, #d8dce0 39%, #808c97 100%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.main-wrap-overlay {
+  background-image: url("../assets/WoodenCounter.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.embed-wrap iframe {
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+/* Attempted responsive embed for video */
+/*
+.embed-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-wrap iframe, .embed-wrap object, .embed-wrap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
+
+.form-wrap {
+  margin: 0px 0px 0px 0px;
+  padding: 10px 15px 15px 15px;
+  background-color: #404041;
+  border-style: solid;
+  border-width: 4px 4px 0px 4px;
+  border-color: #b7b7b7;
+}
+
+.form-wrap input {
+  border-radius: 0px 0px 0px 0px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  color: #7a7a7a;
+  border: 1px solid #818a91;
+  margin-bottom: 10px;
+}
+
+.form-wrap button {
+  background-color: #017597;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #5ea7bd;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 10px;
+}
+
+.form-guarantee {
+  color: #fff;
+}
+
+.ox-checklist {
+  font-family: 'Open Sans', Sans-serif;
+  font-size: 22px;
+}
+
+.ox-checklist ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+}
+
+.ox-checklist i {
+  color: #8eae50;
+  font-size: 42px;
+}
+
+.ox-description {
+  font-family: 'Open Sans', Sans-serif;
+  font-size: 18px;
+}

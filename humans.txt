@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris White -- Tech Lead, Developer -- chris@curiouslychris.com
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Bootstrap
