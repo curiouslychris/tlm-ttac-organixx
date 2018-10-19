@@ -72,13 +72,21 @@
 }
 
 .form-wrap button {
-  background-color: #017597;
   font-size: 20px;
   border-style: solid;
   border-width: 3px 3px 3px 3px;
-  border-color: #5ea7bd;
   border-radius: 0px 0px 0px 0px;
   margin-bottom: 10px;
+}
+
+.form-wrap button.men-blue {
+  background-color: #017597;
+  border-color: #5ea7bd;
+}
+
+.form-wrap button.women-pink {
+  background-color: #e1267e;
+  border-color: #ec75ad;
 }
 
 .form-guarantee {
